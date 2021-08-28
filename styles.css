@@ -7,10 +7,12 @@
     
 }
 .flicker{
-    background-color: linen;
+    background-color: white;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     position: absolute;
-
+    box-shadow:
+    inset 4px 4px 4px  rgb(255, 255, 255),
+   inset -4px -4px -4px rgb(195, 193, 198 / 90%);
 }
