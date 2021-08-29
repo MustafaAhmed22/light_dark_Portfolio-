@@ -1,18 +1,43 @@
+body{
+    transition: 0.3s;
+
+}
 .switch{
-    background-color: black;
+    background-color: rgb(46, 41, 41);
     width: 80px;
     height: 30px;
     border-radius: 200px;
     position: relative;
     
 }
-.flicker{
+    .flicker{
     background-color: white;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     position: absolute;
+    transition: 0.3s;
+
     box-shadow:
     inset 4px 4px 4px  rgb(255, 255, 255),
    inset -4px -4px -4px rgb(195, 193, 198 / 90%);
+} 
+/* .moon{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    left: 45px;
+} */
+.dark{
+    background-color: rgb(57, 57, 57);
+    transition: .3s;
+
+
+}
+.dark .flicker{
+    transform: translateX(50px);
+    transition: 0.3s;
+
 }
