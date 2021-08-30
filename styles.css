@@ -3,12 +3,18 @@ body{
     margin: 0;
     padding: 0;
 }
+header{
+    display: flex;
+    justify-content:flex-end ;
+    padding: 30px;
+}
 .switch{
     background-color: rgb(46, 41, 41);
     width: 80px;
     height: 30px;
     border-radius: 200px;
     position: relative;
+    
     
 }
     .flicker{
@@ -21,6 +27,8 @@ body{
     box-shadow:
     inset 4px 4px 4px  rgb(255, 255, 255),
    inset -4px -4px -4px rgb(195, 193, 198 / 90%);
+   
+   
 } 
 /* .moon{
     width: 20px;
@@ -33,6 +41,8 @@ body{
 .dark{
     background-color: rgb(57, 57, 57);
     transition: .3s;
+   
+    
 
 
 }
@@ -44,4 +54,8 @@ body{
 }
 .main-text{
     width: 50%;
+    padding: 30px;
+}
+.dark > *{
+    color: white;
 }
