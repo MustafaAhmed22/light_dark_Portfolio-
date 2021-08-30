@@ -1,6 +1,7 @@
 body{
     transition: 0.3s;
-
+    margin: 0;
+    padding: 0;
 }
 .switch{
     background-color: rgb(46, 41, 41);
@@ -37,4 +38,10 @@ body{
 }
 .dark .flicker{
     transform: translateX(50px);
+}
+.main{
+    height: 80vh;
+}
+.main-text{
+    width: 50%;
 }
