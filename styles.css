@@ -1,8 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+
 body{
     transition: 0.3s;
     margin: 0;
     padding: 0;
+    background-color: rgb(233, 231, 231);
+    font-family: 'Glory', sans-serif;
 }
+h1{
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+h2{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin: 10px 0;
+    letter-spacing: .5px;
+}
+
 header{
     display: flex;
     justify-content:flex-end ;
@@ -58,4 +78,27 @@ header{
 }
 .dark > *{
     color: white;
+}
+.square{
+    width: 98%;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    margin: 1%;
+}
+.dark .square{
+    color: rgb(255, 255, 255);
+    background-color: rgb(104, 103, 103);
+
+}
+.sub-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width:970px){
+    .square{
+        width: 48%;
+        margin: 1%;
+        height: 600px;
+    }
 }
