@@ -22,7 +22,18 @@ h2{
     margin: 10px 0;
     letter-spacing: .5px;
 }
-
+p{
+    margin: 0;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(247, 78, 59);
+    font-size: 18px;
+}
+.dark a{
+    color: rgb(173, 199, 60);
+}
 header{
     display: flex;
     justify-content:flex-end ;
@@ -101,4 +112,10 @@ header{
         margin: 1%;
         height: 600px;
     }
+}
+footer{
+    margin: auto;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    background-color: rgb(143, 145, 146);
 }
