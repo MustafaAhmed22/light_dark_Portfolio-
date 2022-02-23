@@ -107,7 +107,7 @@ header{
 }
 .square{
     width: 98%;
-    height: 350px;
+    height: 200px;
     background-color: white;
     text-align: center;
     margin: 1%;
@@ -125,8 +125,18 @@ header{
     .square{
         width: 48%;
         margin: 1%;
-        height: 600px;
+        height: 300px;
     }
+   
+}
+@media only screen and (max-width:1200px){
+     .footer {
+         padding: 10px;
+     }
+
+     .name {
+         font-size: 80px;
+     }
 }
 footer{
     margin: auto;
@@ -193,4 +203,85 @@ span:hover:before {
 span:hover:after {
     top: -10px;
     left: -10px;
+}
+/*-------------------------------------*/
+.s1:hover{
+    opacity: .8;
+}
+.hidden{
+    opacity: 0;
+}
+.hidden:hover{
+    opacity: 1;
+}
+
+.s2:hover {
+    opacity: .7;
+}
+.s3:hover {
+    opacity: .7;
+}
+.s4:hover {
+    opacity: .7;
+}
+.s5:hover {
+    opacity: .7;
+}
+.s6:hover {
+    opacity: .7;
+}
+.s7:hover {
+    opacity: .7;
+}
+.s8:hover {
+    opacity: .7;
+}
+.s9:hover {
+    opacity: .7;
+}
+.s10:hover {
+    opacity: .7;
+}
+
+.s1{
+    background-image: url("./images/memory game.JPG");
+    background-size: cover;
+    visibility: visible;
+    
+}
+.s2 {
+    background-image: url("./images/oldCars.JPG");
+    background-size: cover;
+}
+.s3 {
+    background-image: url("./images/newsGrid.JPG");
+    background-size: cover;
+}
+.s4 {
+    background-image: url("./images/myTunes.JPG");
+    background-size: cover;
+}
+.s5 {
+    background-image: url("./images/hotel.PNG");
+    background-size: cover;
+}
+.s6 {
+    background-image: url("./images/event.PNG");
+    background-size: cover;
+}
+.s7 {
+    background-image: url("./images/flippy.PNG");
+    background-size: cover;
+}
+.s8 {
+    background-image: url("./images/candycrash.PNG");
+    background-size: cover;
+}
+.s9 {
+    background-image: url("./images/hotelhbt.PNG");
+    background-size: cover;
+}
+.s10 {
+    background-image: url("./images/edge.PNG");
+    background-size: cover;
 }
