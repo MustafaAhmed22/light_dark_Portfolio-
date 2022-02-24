@@ -35,11 +35,11 @@ p{
 }
 a{
     text-decoration: none;
-    color: rgb(247, 78, 59);
+    color: rgb(255, 255, 255);
     font-size: 18px;
 }
 .dark a{
-    color: rgb(173, 199, 60);
+    color: rgb(73, 103, 238);
 }
 header{
     display: flex;
