@@ -205,42 +205,45 @@ span:hover:after {
     left: -10px;
 }
 /*-------------------------------------*/
-.s1:hover{
-    opacity: .8;
-}
+
 .hidden{
     opacity: 0;
 }
 .hidden:hover{
     opacity: 1;
+    background-color:rgba(63, 62, 62, 0.904) ;
+    border-radius: 20px;
+    color: aliceblue;
 }
-
+.s1:hover {
+    opacity: .9;
+}
 .s2:hover {
-    opacity: .7;
+    opacity: .9;
 }
 .s3:hover {
-    opacity: .7;
+    opacity: .9;
 }
 .s4:hover {
-    opacity: .7;
+    opacity: .9;
 }
 .s5:hover {
-    opacity: .7;
+    opacity: .9;
 }
 .s6:hover {
-    opacity: .7;
-}
-.s7:hover {
-    opacity: .7;
-}
-.s8:hover {
-    opacity: .7;
+    opacity: .9;
 }
 .s9:hover {
-    opacity: .7;
+    opacity: .9;
+}
+.s8:hover {
+    opacity: .9;
+}
+.s9:hover {
+    opacity: .9;
 }
 .s10:hover {
-    opacity: .7;
+    opacity: .9;
 }
 
 .s1{
