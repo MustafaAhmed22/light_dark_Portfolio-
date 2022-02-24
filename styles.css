@@ -56,6 +56,7 @@ header{
     position: relative;
     
     
+    
 }
     .flicker{
     background-color: white;
@@ -67,7 +68,6 @@ header{
     box-shadow:
     inset 4px 4px 4px  rgb(255, 255, 255),
    inset -4px -4px -4px rgb(195, 193, 198 / 90%);
-   
    
 } 
 /* .moon{
@@ -133,7 +133,7 @@ header{
 }
 @media only screen and (min-width:970px){
     .square{
-        width: 48%;
+        width: 30%;
         margin: 1%;
         height: 300px;
     }
@@ -147,7 +147,28 @@ header{
      .name {
          font-size: 80px;
      }
+     .square {
+         width: 40%;
+         margin: 1%;
+         height: 300px;
+     }
 }
+@media only screen and (max-width:768px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .name {
+        font-size: 80px;
+    }
+
+    
+    .name{
+        font-size: 50px;
+    }
+    
+}
+
 footer{
     margin: auto;
     text-align: center;
