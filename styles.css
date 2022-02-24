@@ -277,6 +277,9 @@ span:hover:after {
 .s11:hover {
     opacity: .9;
 }
+.s12:hover {
+    opacity: .9;
+}
 .s1{
     background-image: url("./images/memory game.JPG");
     background-size: cover;
@@ -321,5 +324,9 @@ span:hover:after {
 }
 .s11 {
     background-image: url("./images/qq.PNG");
+    background-size: cover;
+}
+.s12 {
+    background-image: url("./images/meal.PNG");
     background-size: cover;
 }
