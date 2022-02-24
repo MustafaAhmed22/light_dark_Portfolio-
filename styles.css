@@ -81,10 +81,14 @@ header{
 .dark{
     background-color: rgb(57, 57, 57);
     transition: .3s;
-   
-    
-
-
+}
+.logo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 .dark .name{
     display: none;
