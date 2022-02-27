@@ -1,14 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-body{
+
+body {
     transition: 0.3s;
     margin: 0;
     padding: 0;
     background-color: rgb(231, 222, 222);
-    font-family: 'Rubik',sans-serif,
-    sans-serif;
+    font-family: 'Rubik', sans-serif,
+        sans-serif;
     line-height: 1.3;
 }
+
 body::-webkit-scrollbar {
     width: 1em;
 }
@@ -20,56 +21,61 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: rgb(90, 87, 87);
     outline: 1px solid rgb(113, 121, 129);
-        border-radius: 2px;
+    border-radius: 2px;
 
 }
 
-h1{
+h1 {
     font-size: 70px;
     line-height: 70px;
     font-weight: 300;
     margin: 10px 0;
 }
-h2{
-    font-size: 40px;
+
+h2 {
+    font-size: 35px;
     line-height: 40px;
     font-weight: 300;
-    margin: 10px 0;
+    margin: auto;
     letter-spacing: .5px;
 }
-p{
+
+p {
     margin: 0;
     font-size: 20px;
 }
-.welcome{
+
+.welcome {
     font-size: 25px;
     font-weight: 600;
 }
-.myname{
 
-}
-a{
+a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
-.dark a{
+
+.dark a {
     color: rgb(73, 103, 238);
 }
-header{
+
+header {
     display: flex;
-    justify-content:flex-end ;
-    padding: 30px;
+    justify-content: flex-end;
+    padding: 10px;
 }
-.switch{
+
+.switch {
     background-color: rgb(46, 41, 41);
     width: 80px;
     height: 30px;
     border-radius: 200px;
     position: relative;
-    
+    cursor: pointer;
 }
-    .flicker{
+
+.flicker {
     background-color: white;
     width: 30px;
     height: 30px;
@@ -77,95 +83,81 @@ header{
     position: absolute;
     transition: 0.3s;
     box-shadow:
-    inset 4px 4px 4px  rgb(255, 255, 255),
-   inset -4px -4px -4px rgb(195, 193, 198 / 90%);
-   
-} 
-/* .moon{
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    position: absolute;
-    background-color: white;
-    left: 45px;
-} */
-.dark{
+        inset 4px 4px 4px rgb(255, 255, 255),
+        inset -4px -4px -4px rgb(195, 193, 198 / 90%);
+}
+
+.dark {
     background-color: rgb(57, 57, 57);
     transition: .3s;
 }
-.logo{
-    position: relative;
-    top: 10px;
-    left: 10px;
+
+.logo {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
-.dark .name{
-    display: none;
-}
-.dark .flicker{
+
+.dark .flicker {
     transform: translateX(50px);
 }
-.main{
-    height: 80vh;
-}
-.main-text{
-    width: 50%;
-    padding: 30px;
-}
-.dark > *{
+
+.dark>* {
     color: white;
 }
- .cv{
+
+.main-text {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.cv {
     color: #ffffff;
     background-color: rgb(75, 75, 75);
     border-radius: 10px;
-    padding: 2px;
+    padding: 10px;
+    transition: 0.5s;
 }
-.cv:hover{
+
+.cv:hover {
     opacity: 0.8;
+    color: #e93d3d;
 }
-.square{
-    width: 98%;
+
+.square {
+    width: 100%;
     height: 200px;
     background-color: white;
     text-align: center;
-    margin: 1%;
+    margin: auto auto 5% auto;
     border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+
 }
-.dark .square{
+
+.dark .square {
     color: rgb(255, 255, 255);
     background-color: rgb(104, 103, 103);
 
 }
-.sub-section{
+
+.sub-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-@media only screen and (min-width:970px){
-    .square{
+
+@media only screen and (min-width: 970px) {
+    .square {
         width: 30%;
         margin: 1%;
         height: 300px;
     }
-   
 }
-@media only screen and (max-width:1200px){
-     .footer {
-         padding: 10px;
-     }
 
-     .name {
-         font-size: 80px;
-     }
-     .square {
-         width: 40%;
-         margin: 1%;
-         height: 300px;
-     }
-}
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 1200px) {
     .footer {
         padding: 10px;
     }
@@ -174,43 +166,77 @@ header{
         font-size: 80px;
     }
 
-    
-    .name{
-        font-size: 50px;
+    .square {
+        width: 40%;
+        margin: 1%;
+        height: 300px;
     }
-    
+
+    .main-text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
 }
 
-footer{
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+}
+
+footer {
     margin: auto;
     text-align: center;
     padding: 30px 0 30px 0;
     background-color: rgb(143, 145, 146);
 }
+
 footer i {
     padding: 10px;
 }
-img{
+
+img {
     width: 92%;
     height: 450px;
 }
 
-/*---------------------------------------*/
-
-span {
-    position: absolute;
-    left: 75%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    display: block;
-    color: #e93d3d;
-    font-size: 124px;
-    letter-spacing: 8px;
-    cursor: pointer;
+.fa-2x {
+    font-size: 1.5rem;
+    transition: 0.5s;
 }
 
-span::before {
-    content: "Mostafa ahmed";
+.fa-2x:hover {
+    color: #e93d3d;
+}
+
+/*---------------------------------------*/
+
+.name {
+    position: relative;
+    display: block;
+    color: #e93d3d;
+    letter-spacing: 8px;
+    cursor: pointer;
+    width: 70%;
+    margin: auto;
+}
+
+.dark .name::before,
+.dark .name::after {
+    background-image: repeating-linear-gradient(45deg,
+            transparent 0,
+            transparent 2px,
+            rgb(175, 175, 175) 2px,
+            rgb(175, 175, 175) 4px);
+}
+
+.name::before {
+    content: "Mostafa Ahmed";
     position: absolute;
     color: transparent;
     background-image: repeating-linear-gradient(45deg,
@@ -219,14 +245,16 @@ span::before {
             rgb(71, 71, 71) 2px,
             rgb(71, 71, 71) 4px);
     -webkit-background-clip: text;
+    background-clip: text;
     top: 0px;
     left: 0;
     z-index: -1;
     transition: 1s;
+    width: 100%;
 }
 
-span::after {
-    content: "Mostafa ahmed";
+.name::after {
+    content: "Mostafa Ahmed";
     position: absolute;
     color: transparent;
     background-image: repeating-linear-gradient(135deg,
@@ -235,114 +263,90 @@ span::after {
             rgb(71, 71, 71) 2px,
             rgb(71, 71, 71) 4px);
     -webkit-background-clip: text;
+    background-clip: text;
     top: 0px;
     left: 0px;
     transition: 1s;
+    width: 100%;
 }
 
-span:hover:before {
+.name:hover:before {
     top: 10px;
     left: 10px;
 }
 
-span:hover:after {
+.name:hover:after {
     top: -10px;
     left: -10px;
 }
+
 /*-------------------------------------*/
 
-.hidden{
+.hidden {
     opacity: 0;
-}
-.hidden:hover{
-    opacity: 1;
-    background-color:rgba(63, 62, 62, 0.904) ;
-    border-radius: 20px;
+    transition: 0.5s;
+    background-color: rgba(63, 62, 62, 0.904);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     color: aliceblue;
+    text-transform: capitalize;
+    padding: 5px;
 }
-.s1:hover {
-    opacity: .9;
+
+.square:hover .hidden {
+    opacity: 1;
 }
-.s2:hover {
-    opacity: .9;
+
+.hidden a {
+    color: #e93d3d;
+    transition: none;
 }
-.s3:hover {
-    opacity: .9;
-}
-.s4:hover {
-    opacity: .9;
-}
-.s5:hover {
-    opacity: .9;
-}
-.s6:hover {
-    opacity: .9;
-}
-.s9:hover {
-    opacity: .9;
-}
-.s8:hover {
-    opacity: .9;
-}
-.s9:hover {
-    opacity: .9;
-}
-.s10:hover {
-    opacity: .9;
-}
-.s11:hover {
-    opacity: .9;
-}
-.s12:hover {
-    opacity: .9;
-}
-.s1{
+
+.s1 {
     background-image: url("./images/memory game.JPG");
-    background-size: cover;
     visibility: visible;
-    
 }
+
 .s2 {
     background-image: url("./images/oldCars.JPG");
-    background-size: cover;
 }
+
 .s3 {
     background-image: url("./images/newsGrid.JPG");
-    background-size: cover;
 }
+
 .s4 {
     background-image: url("./images/myTunes.JPG");
-    background-size: cover;
 }
+
 .s5 {
     background-image: url("./images/hotel.PNG");
-    background-size: cover;
 }
+
 .s6 {
     background-image: url("./images/event.PNG");
-    background-size: cover;
 }
+
 .s7 {
     background-image: url("./images/flippy.PNG");
-    background-size: cover;
 }
+
 .s8 {
     background-image: url("./images/candycrash.PNG");
-    background-size: cover;
 }
+
 .s9 {
     background-image: url("./images/hotelhbt.PNG");
-    background-size: cover;
 }
+
 .s10 {
     background-image: url("./images/edge.PNG");
-    background-size: cover;
 }
+
 .s11 {
     background-image: url("./images/qq.PNG");
-    background-size: cover;
 }
+
 .s12 {
     background-image: url("./images/meal.PNG");
-    background-size: cover;
 }
