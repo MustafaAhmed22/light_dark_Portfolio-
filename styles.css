@@ -136,6 +136,10 @@ header {
     background-size: cover;
 
 }
+.square:hover {
+    opacity: .8;
+}
+
 
 .dark .square {
     color: rgb(255, 255, 255);
@@ -300,6 +304,8 @@ img {
 .hidden a {
     color: #e93d3d;
     transition: none;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .s1 {
@@ -349,4 +355,22 @@ img {
 
 .s12 {
     background-image: url("./images/meal.PNG");
+}
+.s13 {
+    background-image: url("./images/todo.png");
+}
+.s14 {
+    background-image: url("./images/reactplayer.png");
+}
+.s15 {
+    background-image: url("./images/hangman.png");
+}
+.s16 {
+    background-image: url("./images/textspeech.png");
+}
+.s17 {
+    background-image: url("./images/filterproducts.png");
+}
+.s18 {
+    background-image: url("./images/jsprojects.png");
 }
